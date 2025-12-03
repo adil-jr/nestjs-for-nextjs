@@ -1,11 +1,14 @@
 @baseUrl = http://localhost:3000
+
+### Auth login
 # @name authLogin
 POST {{baseUrl}}/auth/login
 Content-Type: application/json
 
 {
   "email": "user@email.com",
-  "password": "123456"
+  "password": "123456",
+  "teste": "123456"
 }
 
 ### Read one user
