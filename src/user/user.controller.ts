@@ -4,6 +4,6 @@ import { Controller, Get, Param } from '@nestjs/common';
 export class UserController {
   @Get(':id')
   findOne(@Param('id') id: string) {
-    return `olá do controller do user #${id}`;
+    return `olá do controller do user, testando interação #${id}`;
   }
 }
